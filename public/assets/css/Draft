@@ -1,0 +1,108 @@
+/* Navbar Style */
+.bg-costum {
+    background: white;
+}
+
+.navbar-toggler {
+    padding: 1px 5px;
+    font-size: 18px;
+    line-height: 0.3;
+    background: #fff;
+}
+.w-1oo {
+    height: 100vh;
+}
+
+/* Carousel Style */
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+}
+.drkoverlay::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: black;
+    opacity: 0.5;
+}
+
+.carousel-caption {
+    bottom: 220px;
+}
+
+Style BackUp
+
+/* Carousel */
+
+/* Icon Footer Style */
+.fa-facebook {
+    color: black;
+}
+.fa-youtube {
+    color: black;
+}
+.fa-twitter {
+    color: black;
+}
+.fa-instagram {
+    color: black;
+}
+
+/* Card Style */
+.berita {
+    border: none;
+}
+.card-body .card-title {
+    margin-top: -30px;
+    margin-left: -20px;
+}
+.card-body .card-text {
+    margin-left: -20px;
+}
+
+/* Divider Style */
+.diveder hr {
+    border-color: black;
+    width: 280px;
+}
+
+/* Footer Style */
+.footer {
+    background-color: #dfeeea;
+}
+
+.footeranimation {
+    background-color: #dfeeea;
+    animation-name: footeranimation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes footeranimation {
+    0% {
+        background-color: #dfeeea;
+    }
+    25% {
+        background-color: grey;
+    }
+    50% {
+        background-color: #dfeeea;
+    }
+    100% {
+        background-color: gray;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .navbar-nav.ml-auto {
+        background: white;
+    }
+    .navbar-nav a {
+        font-size: 14px;
+        font-weight: normal;
+    }
+}
